@@ -1,0 +1,9 @@
+# pyproject.toml
+[project]
+name = "imageterm"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["requests", "pixcat", "pillow"]
+
+[project.scripts]
+imageterm = "imageterm.cli:main"

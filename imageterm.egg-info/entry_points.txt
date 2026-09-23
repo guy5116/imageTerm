@@ -1,0 +1,2 @@
+[console_scripts]
+imageterm = imageterm.cli:main
